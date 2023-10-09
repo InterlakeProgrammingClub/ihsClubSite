@@ -1,0 +1,26 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	height: 10dvh;
+	background-color: #000;
+}
+
+.navbar a {
+	color: #fff;
+}
+
+.navbarMain {
+	display: flex;
+	align-items: center;
+	margin-left: 5rem;
+}
+
+.navbarLinks {
+	margin-right: 4rem;
+}
+
+.navbarLinks a {
+	margin: 1rem;
+}
