@@ -1,0 +1,30 @@
+[
+	{
+		"name": "Programming Club",
+		"description": "We are the best club",
+		"route": "/programming",
+		"image": "/logos/programming.png"
+	},
+
+	{
+		"name": "Quizbowl Club",
+		"description": "Are you interested in history, literature, science or just want to have fun playing some trivia? Then join Interlake QuizBowl! We have various academic subjects to quiz you on as well as many competitions for you to attend!",
+		"route": "/quizbowl",
+		"contact": "s-ludan@bsd405.org",
+		"club contact": "interlakequizbowl@gmail.com",
+		"room": "2708",
+		"advisor": "Daniels",
+		"image": "/logos/quizbowl.png"
+	},
+
+	{
+		"name": "History Club",
+		"description": "We are a club that practices competitive history, using question packets from the National History Bee & Bowl website. We cover all areas of history, be it medieval, modern, or even pandemic time. Every meeting, we play trivia using these packets, similar to Quizbowl or SciOly. No experience required! We offer food if a member spots us $5.",
+		"route": "/history",
+		"contact": "s-georgeade@bsd405.org",
+		"club contact": "interlakehistoryclub@gmail.com",
+		"room": "1705",
+		"advisor": "Mr. Garcia",
+		"image": "/logos/programming.png"
+	}
+]

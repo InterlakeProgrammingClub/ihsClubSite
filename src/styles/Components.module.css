@@ -24,3 +24,38 @@
 .navbarLinks a {
 	margin: 1rem;
 }
+
+.club {
+	width: 35rem;
+	height: 25rem;
+	background-color: #cacaca;
+	margin: 5rem;
+	display: flex;
+	flex-direction: column;
+	transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.club:hover {
+	transform: scale(1.1);
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.clubImageContainer {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+  margin-top: 1rem;
+}
+
+.clubLogo {
+  height: 10rem;
+  width: auto;
+}
+
+.clubTextInfo {
+	margin-left: 1rem;
+  margin-right: 1rem;
+  margin-top: 1rem;
+	width: 90%;
+	color: #000;
+}
