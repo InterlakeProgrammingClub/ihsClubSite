@@ -8,3 +8,5 @@ $ cd ihsClubSite
 $ npm i
 $ npm run dev
 ```
+
+Micheal or Ezra, whats the vercel link for this page 
