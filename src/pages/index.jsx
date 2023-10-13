@@ -7,7 +7,7 @@ import styles from "@/styles/Index.module.css";
 export default function Home() {
 	return (
 		<>
-			<Header />
+			<Header title="InterlakeClubs" />
 			<main>
 				<Navbar />
 				<div className={styles.container}>
