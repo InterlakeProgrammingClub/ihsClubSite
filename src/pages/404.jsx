@@ -11,7 +11,7 @@ export default function NotFound() {
 				<Navbar />
 				<div className={styles.container}>
 					<h1>404 - Not Found</h1>
-					<p>The page you were looking for was not found.</p>
+					<p>What are you doing here!? Go join a club!</p>
 
 					<Link href="/" className={styles.return}>
 						<span>Return Home</span>
