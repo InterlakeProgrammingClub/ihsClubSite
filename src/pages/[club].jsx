@@ -21,8 +21,8 @@ export default function ClubPage({ club }) {
 	return (
 		<>
 			<Header
-				title={`${club} Club | InterlakeClubs`}
-				description={`${club} Club - See info now at InterlakeClubs`}
+				title={`${title} Club | InterlakeClubs`}
+				description={`${title} Club - See info now at InterlakeClubs`}
 			/>
 			<main>
 				<Navbar />

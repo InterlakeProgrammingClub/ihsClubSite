@@ -29,6 +29,9 @@
 
 .navbarLinks {
 	margin-right: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .navbarLinks a {
@@ -67,5 +70,6 @@
 	margin-right: 1rem;
 	margin-top: 1rem;
 	width: 90%;
+	height: 100%;
 	color: #000;
 }
