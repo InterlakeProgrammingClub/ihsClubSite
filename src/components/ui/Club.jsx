@@ -4,7 +4,7 @@ import styles from "@/styles/Components.module.css";
 
 export default function Club(item) {
 	return (
-		<Link href={`/clubs${item.route}`} key={item.index} className={styles.club}>
+		<Link href={item.route} key={item.index} className={styles.club}>
 			<div className={styles.clubImageContainer}>
 				<Image
 					src={item.image}

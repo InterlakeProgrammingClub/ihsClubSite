@@ -8,6 +8,10 @@
 }
 
 .navbar a {
+	color: #dbdbdb;
+}
+
+.navbar a:hover {
 	color: #fff;
 }
 
@@ -17,8 +21,17 @@
 	margin-left: 5rem;
 }
 
+.navbarMain img {
+	height: 7dvh;
+	width: auto;
+	margin-right: 0.5rem;
+}
+
 .navbarLinks {
 	margin-right: 4rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .navbarLinks a {
@@ -44,18 +57,19 @@
 	display: flex;
 	justify-content: center;
 	width: 100%;
-  margin-top: 1rem;
+	margin-top: 1rem;
 }
 
 .clubLogo {
-  height: 10rem;
-  width: auto;
+	height: 10rem;
+	width: auto;
 }
 
 .clubTextInfo {
 	margin-left: 1rem;
-  margin-right: 1rem;
-  margin-top: 1rem;
+	margin-right: 1rem;
+	margin-top: 1rem;
 	width: 90%;
+	height: 100%;
 	color: #000;
 }

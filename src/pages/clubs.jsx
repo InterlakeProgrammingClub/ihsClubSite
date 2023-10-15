@@ -7,7 +7,7 @@ import styles from "@/styles/Clubs.module.css";
 export default function Clubs() {
 	return (
 		<>
-			<Header />
+			<Header title="Clubs | InterlakeClubs" />
 			<main>
 				<Navbar />
 				<div className={styles.title}>
