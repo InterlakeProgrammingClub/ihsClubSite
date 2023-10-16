@@ -15,7 +15,8 @@ export default function ClubPage({ club }) {
 			router.push("/404");
 		}
 	});
-
+	
+        const clubInfo = data.find((item) => item.route === '/${club}');
 	const title = club.charAt(0).toUpperCase() + club.slice(1);
 
 	return (
