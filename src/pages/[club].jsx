@@ -29,6 +29,25 @@ export default function ClubPage({ club }) {
 				<div className={styles.titleContainer}>
 					<h1>{title} Club</h1>
 				</div>
+				<div className={styles.infoTable}>
+					<h2>Club Information</h2>
+					<table>
+						<tbody>
+							<tr>
+								<td>Club Name</td>
+								<td>{index?.name}</td>
+							</tr>
+							<tr>
+								<td>Description:</td>
+								<td>{index?.description}</td>
+							</tr>
+							<tr>
+								<td>Meeting Schedule</td>
+								<td>{index?.schedule}</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
 			</main>
 		</>
 	);
