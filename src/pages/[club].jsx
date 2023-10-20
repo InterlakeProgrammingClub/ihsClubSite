@@ -16,7 +16,10 @@ export default function ClubPage({ club }) {
 		}
 	});
 	
-        const clubInfo = data.find((item) => item.route === '/${club}');
+
+    const index = data.find((item) => item.route === `/${club}`);
+	console.log(index);
+	console.log(data);
 	const title = club.charAt(0).toUpperCase() + club.slice(1);
 
 	return (
@@ -45,6 +48,22 @@ export default function ClubPage({ club }) {
 							<tr>
 								<td>Meeting Schedule</td>
 								<td>{index?.schedule}</td>
+							</tr>
+							<tr>
+								<td>Contact</td>
+								<td>{index?.contact}</td>
+							</tr>
+							<tr>
+								<td>Club Contact</td>
+								<td>{index?.clubcontact}</td>
+							</tr>
+							<tr>
+								<td>Room</td>
+								<td>{index?.room}</td>
+							</tr>
+							<tr>
+								<td>Advisor</td>
+								<td>{index?.advisor}</td>
 							</tr>
 						</tbody>
 					</table>

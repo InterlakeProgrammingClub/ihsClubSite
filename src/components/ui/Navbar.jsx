@@ -10,8 +10,8 @@ export default function Navbar() {
 				<p>InterlakeClubs</p>
 			</Link>
 			<div className={styles.navbarLinks}>
-				<Link href="/clubs">Club List</Link>
-				<Link href="/info">School Info</Link>
+				<Link href="/clubs">Clubs</Link>
+				<Link href="/info">Info</Link>
 				<Link href="/contact">Contact</Link>
 			</div>
 		</main>
