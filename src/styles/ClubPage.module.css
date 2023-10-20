@@ -21,14 +21,11 @@
 	margin: 0 auto;
 }
 
-.infoTable table, th, td {
+.infoTable table th, .infoTable table td {
 	border: 1px solid #ddd;
-}
-
-.infoTable th, td {
-	padding: 10px;
+	padding: 10px
 }
 
 .infoTable table tr:nth-child(even) {
-	backround-color: #4390bc;
+	background-color: #4390bc;
 }
