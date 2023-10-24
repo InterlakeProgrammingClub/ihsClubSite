@@ -15,11 +15,8 @@ export default function ClubPage({ club }) {
 			router.push("/404");
 		}
 	});
-	
 
-    const index = data.find((item) => item.route === `/${club}`);
-	console.log(index);
-	console.log(data);
+	const index = data.find((item) => item.route === `/${club}`);
 	const title = club.charAt(0).toUpperCase() + club.slice(1);
 
 	return (
@@ -30,7 +27,7 @@ export default function ClubPage({ club }) {
 			/>
 			<main>
 				<Navbar />
-				<div className={styles.titleContainer}>
+				<div className={styles.title}>
 					<h1>{title} Club</h1>
 				</div>
 				<div className={styles.infoTable}>

@@ -9,7 +9,7 @@ export default function NotFound() {
 			<Header title="404 | InterlakeClubs" />
 			<main>
 				<Navbar />
-				<div className={styles.container}>
+				<div className={styles.title}>
 					<h1>404 - Not Found</h1>
 					<p>What are you doing here!? Go join a club!</p>
 

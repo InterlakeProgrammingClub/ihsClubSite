@@ -51,9 +51,11 @@
 	transition: transform 0.3s, box-shadow 0.3s;
 	border-radius: 20px;
 }
-.club > *{
+
+.club > * {
 	text-align: center;
 }
+
 .club:hover {
 	transform: scale(1.1);
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
@@ -79,6 +81,7 @@
 	height: 100%;
 	color: #000;
 }
-.descriptionContainer{
+
+.descriptionContainer {
 	margin-bottom: 1rem;
 }
