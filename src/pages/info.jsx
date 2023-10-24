@@ -1,6 +1,7 @@
 import Header from "@/components/ui/Header";
 import Navbar from "@/components/ui/Navbar";
-import styles from "@/styles/info.module.css";
+import styles from "@/styles/Info.module.css";
+
 export default function Info() {
 	return (
 		<>

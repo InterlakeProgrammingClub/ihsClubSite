@@ -3,7 +3,7 @@ import { useRouter } from "next/router";
 import Header from "@/components/ui/Header";
 import Navbar from "@/components/ui/Navbar";
 import data from "@/json/clubs.json";
-import styles from "@/styles/ClubPage.module.css";
+import styles from "@/styles/[club].module.css";
 
 export default function ClubPage({ club }) {
 	const router = useRouter();
@@ -30,6 +30,7 @@ export default function ClubPage({ club }) {
 				<div className={styles.title}>
 					<h1>{title} Club</h1>
 				</div>
+
 				<div className={styles.infoTable}>
 					<h2>Club Information</h2>
 					<table>

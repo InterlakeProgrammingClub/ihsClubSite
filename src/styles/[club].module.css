@@ -3,7 +3,7 @@
 	margin-top: 10rem;
 	display: flex;
 	flex-direction: column;
-  align-items: center;
+	align-items: center;
 }
 
 .title h1 {
@@ -15,15 +15,18 @@
 	background-color: #68a7ca;
 	padding: 20px;
 	border-radius: 10px;
+	width: 50rem;
+	margin: 0 auto;
 }
 
 .infoTable table {
 	margin: 0 auto;
 }
 
-.infoTable table th, .infoTable table td {
+.infoTable table th,
+.infoTable table td {
 	border: 1px solid #ddd;
-	padding: 10px
+	padding: 10px;
 }
 
 .infoTable table tr:nth-child(even) {

@@ -17,24 +17,24 @@
 }
 
 .info p {
-	font-size: x-large;
+	font-size: clamp(13px, 3vw, 20px);
 	margin-top: 1rem;
 	margin-bottom: 4rem;
 }
 
 .redirect {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
 	width: 100%;
 	height: 3rem;
 	background-color: #cacaca;
-  color: #000;
+	color: #000;
 }
 
 .redirect:hover {
-  background-color: #827e7e;
+	background-color: #827e7e;
 }
 
 .imageContainer {

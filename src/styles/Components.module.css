@@ -21,7 +21,7 @@
 .navbarMain {
 	display: flex;
 	align-items: center;
-	margin-left: 5rem;
+	margin-left: 5%;
 }
 
 .navbarMain img {
@@ -41,6 +41,12 @@
 	margin: 1rem;
 }
 
+@media only screen and (max-width: 400px) {
+	.navbar a {
+    font-size: 10px;
+  }
+}
+
 .club {
 	width: 35rem;
 	height: auto;
@@ -52,13 +58,13 @@
 	border-radius: 20px;
 }
 
-.club > * {
-	text-align: center;
-}
-
 .club:hover {
 	transform: scale(1.1);
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.club > * {
+	text-align: center;
 }
 
 .clubImageContainer {
