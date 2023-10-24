@@ -3,7 +3,7 @@
 	margin-top: 10rem;
 	display: flex;
 	flex-direction: column;
-  align-items: center;
+	align-items: center;
 }
 
 .title h1 {
@@ -19,13 +19,13 @@
 	display: flex;
 	align-items: center;
 	justify-content: center;
-  text-align: center;
+	text-align: center;
 	width: 15%;
 	height: 3rem;
-	background-color: #cacaca;
-	color: #000;
+	background-color: var(--container-bg);
+	color: var(--text);
 }
 
 .return:hover {
-	background-color: #827e7e;
+	background-color: var(--container-hover-bg);
 }

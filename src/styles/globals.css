@@ -1,8 +1,33 @@
+:root {
+	--bg: #fff;
+	--navbar-bg: #000;
+
+	--container-bg: #cacaca;
+	--container-hover-bg: #827e7e;
+
+	--text: #000;
+	--navbar-text: #dbdbdb;
+	--navbar-text-hover: #fff;
+
+	--table-bg: #68a7ca;
+	--table-even-bg: #4390bc;
+	--table-border: #ddd;
+}
+
 * {
 	margin: 0;
 }
 
+body {
+	background-color: var(--bg);
+}
+
+h1,
+p {
+	color: var(--text);
+}
+
 a {
 	text-decoration: none;
-  cursor: pointer;
+	cursor: pointer;
 }

@@ -29,11 +29,11 @@
 	width: 15rem;
 	height: 15rem;
 	margin: 5rem;
-	background-color: #cacaca;
+	background-color: var(--container-bg);
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	color: #000;
+	color: var(--text);
 	transition: transform 0.3s, box-shadow 0.3s;
 	justify-content: center;
 	align-items: center;
@@ -47,4 +47,5 @@
 .contactOption svg {
 	width: 10rem;
 	height: auto;
+  fill: var(--text);
 }

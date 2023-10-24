@@ -6,16 +6,16 @@
 	align-items: center;
 	width: 100%;
 	height: 10dvh;
-	background-color: #000;
+	background-color: var(--navbar-bg);
 	z-index: 10;
 }
 
-.navbar a {
-	color: #dbdbdb;
+.navbar a, .navbar a p {
+	color: var(--navbar-text);
 }
 
-.navbar a:hover {
-	color: #fff;
+.navbar a:hover, .navbar a p:hover {
+	color: var(--navbar-text-hover);
 }
 
 .navbarMain {
@@ -50,7 +50,7 @@
 .club {
 	width: 35rem;
 	height: auto;
-	background-color: #cacaca;
+	background-color: var(--container-bg);
 	margin: 5rem;
 	display: flex;
 	flex-direction: column;
@@ -85,7 +85,7 @@
 	margin-top: 1rem;
 	width: 90%;
 	height: 100%;
-	color: #000;
+	color: var(--text);
 }
 
 .descriptionContainer {

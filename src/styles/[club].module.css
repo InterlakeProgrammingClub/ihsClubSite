@@ -12,7 +12,7 @@
 
 .infoTable {
 	text-align: center;
-	background-color: #68a7ca;
+	background-color: var(--table-bg);
 	padding: 20px;
 	border-radius: 10px;
 	width: 50rem;
@@ -25,10 +25,10 @@
 
 .infoTable table th,
 .infoTable table td {
-	border: 1px solid #ddd;
+	border: 1px solid var(--table-border);
 	padding: 10px;
 }
 
 .infoTable table tr:nth-child(even) {
-	background-color: #4390bc;
+	background-color: var(--table-even-bg);
 }
