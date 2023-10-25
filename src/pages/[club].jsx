@@ -16,19 +16,19 @@ export default function ClubPage({ club }) {
 		}
 	});
 
-	const index = data.find((item) => item.route === `/${club}`);
-	const title = club.charAt(0).toUpperCase() + club.slice(1);
+	let info = data.find((item) => item.route === `/${club}`);
+	info = info ? info : "";
 
 	return (
 		<>
 			<Header
-				title={`${title} Club | InterlakeClubs`}
-				description={`${title} Club - See info now at InterlakeClubs`}
+				title={`${info.name} | InterlakeClubs`}
+				description={`${info.name} - See info now at InterlakeClubs`}
 			/>
 			<main>
 				<Navbar />
 				<div className={styles.title}>
-					<h1>{title} Club</h1>
+					<h1>{info.name}</h1>
 				</div>
 
 				<div className={styles.infoTable}>
@@ -37,31 +37,31 @@ export default function ClubPage({ club }) {
 						<tbody>
 							<tr>
 								<td>Club Name</td>
-								<td>{index?.name}</td>
+								<td>{info?.name}</td>
 							</tr>
 							<tr>
 								<td>Description:</td>
-								<td>{index?.description}</td>
+								<td>{info?.description}</td>
 							</tr>
 							<tr>
 								<td>Meeting Schedule</td>
-								<td>{index?.schedule}</td>
+								<td>{info?.schedule}</td>
 							</tr>
 							<tr>
 								<td>Contact</td>
-								<td>{index?.contact}</td>
+								<td>{info?.contact}</td>
 							</tr>
 							<tr>
 								<td>Club Contact</td>
-								<td>{index?.clubcontact}</td>
+								<td>{info?.clubcontact}</td>
 							</tr>
 							<tr>
 								<td>Room</td>
-								<td>{index?.room}</td>
+								<td>{info?.room}</td>
 							</tr>
 							<tr>
 								<td>Advisor</td>
-								<td>{index?.advisor}</td>
+								<td>{info?.advisor}</td>
 							</tr>
 						</tbody>
 					</table>

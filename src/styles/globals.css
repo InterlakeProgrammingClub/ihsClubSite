@@ -1,15 +1,15 @@
 :root {
 	--bg: #fff;
-	--navbar-bg: #000;
+	--navbar-bg: #4390bc;
 
-	--container-bg: #cacaca;
-	--container-hover-bg: #827e7e;
+	--container-bg: #b2d3e6;
+	--container-hover-bg: #8dbdd8;
 
 	--text: #000;
-	--navbar-text: #dbdbdb;
-	--navbar-text-hover: #fff;
+	--navbar-text: #fff;
+	--navbar-text-hover: #dbdbdb;
 
-	--table-bg: #68a7ca;
+	--table-bg: #68a7ca;  
 	--table-even-bg: #4390bc;
 	--table-border: #ddd;
 }
