@@ -10,3 +10,27 @@
 .title p {
 	font-size: x-large;
 }
+.faqContainer{
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	margin-top: 5vh;
+}
+.faqBox {
+	display:flex;
+	/* border: solid 3px black;
+	border-radius: 8px;
+	 */flex-direction: column;
+	/* background-color: var(--container-bg);
+ */	width: 30vw;
+	margin-left: 5vw;
+	margin-right: 5vw;
+	margin-bottom: 5vh;
+}
+.faqBox > strong{
+	font-size:3vh;
+}
+.info{
+	width: 80vw;
+}
