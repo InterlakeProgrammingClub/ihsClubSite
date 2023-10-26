@@ -1,36 +1,46 @@
-.title {
+.container {
 	text-align: center;
 	margin-top: 10rem;
 }
 
-.title h1 {
+.container h1 {
 	font-size: clamp(34px, 6vw, 64px);
 }
 
-.title p {
+.container p {
 	font-size: x-large;
 }
-.faqContainer{
+
+.aboutContainer p {
+	width: 80vw;
+	margin: auto;
+}
+
+.faqWrapper {
+	margin-top: 10rem;
+}
+
+.faqContainer {
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
 	justify-content: center;
 	margin-top: 5vh;
 }
-.faqBox {
-	display:flex;
-	/* border: solid 3px black;
-	border-radius: 8px;
-	 */flex-direction: column;
-	/* background-color: var(--container-bg);
- */	width: 30vw;
+
+.faqContainer div {
+	display: flex;
+	flex-direction: column;
+	width: 30vw;
 	margin-left: 5vw;
 	margin-right: 5vw;
 	margin-bottom: 5vh;
 }
-.faqBox > strong{
-	font-size:3vh;
+
+.faqContainer div > strong {
+	font-size: 3vh;
 }
-.info{
+
+.info {
 	width: 80vw;
 }

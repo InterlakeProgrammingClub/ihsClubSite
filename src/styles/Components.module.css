@@ -10,11 +10,13 @@
 	z-index: 10;
 }
 
-.navbar a, .navbar a p {
+.navbar a,
+.navbar a p {
 	color: var(--navbar-text);
 }
 
-.navbar a:hover, .navbar a p:hover {
+.navbar a:hover,
+.navbar a p:hover {
 	color: var(--navbar-text-hover);
 }
 
@@ -39,13 +41,12 @@
 
 .navbarLinks a {
 	margin: 1rem;
-	
 }
 
 @media only screen and (max-width: 400px) {
 	.navbar a {
-    font-size: 10px;
-  }
+		font-size: 10px;
+	}
 }
 
 .club {
