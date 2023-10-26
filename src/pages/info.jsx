@@ -43,7 +43,7 @@ export default function Info() {
 								<p>
 									On the clubs page, there are descriptions of the many clubs
 									offered at Interlake. Just read the descriptions and see which
-									one looks intresting to you.
+									one looks interesting to you.
 								</p>
 							</div>
 							<div>

@@ -32,7 +32,6 @@ export default function ClubPage({ club }) {
 				</div>
 
 				<div className={styles.infoTable}>
-					<h2>Club Information</h2>
 					<table>
 						<tbody>
 							<tr>
@@ -45,7 +44,7 @@ export default function ClubPage({ club }) {
 							</tr>
 							<tr>
 								<td>Meeting Schedule</td>
-								<td>{info?.schedule}</td>
+								<td>Every {info?.day}</td>
 							</tr>
 							<tr>
 								<td>Contact</td>

@@ -7,6 +7,7 @@
 		"clubcontact": "admin@interlakeprogrammingclub.com",
 		"room": "1809",
 		"advisor": "Peterson",
+		"day": "Thursday",
 		"image": "/logos/programming.png"
 	},
 	{
@@ -17,6 +18,7 @@
 		"clubcontact": "interlakequizbowl@gmail.com",
 		"room": "2708",
 		"advisor": "Daniels",
+		"day": "Tuesday",
 		"image": "/logos/quizbowl.png"
 	},
 	{
@@ -27,6 +29,7 @@
 		"clubcontact": "interlakehistoryclub@gmail.com",
 		"room": "1705",
 		"advisor": "Mr. Garcia",
+		"day": "Thursday",
 		"image": "/logos/programming.png"
 	},
 	{
@@ -37,6 +40,7 @@
 		"clubcontact": "interlakestocksclub@gmail.com",
 		"room": "106",
 		"advisor": "Ruihua Wang",
+		"day": "Monday",
 		"image": "/logos/stocks.png"
 	},
 	{
@@ -47,6 +51,7 @@
 		"clubcontact": "decainterlake@gmail.com",
 		"room": "1802 and 1803",
 		"advisor": "Weiker and Thoreson",
+		"day": "Tuesday",
 		"image": "/logos/deca.png"
 	}
 ]

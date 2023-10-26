@@ -76,6 +76,11 @@
 	margin-top: 1rem;
 }
 
+.clubImageContainer img {
+	max-width: 100%;
+	height: auto;
+}
+
 .clubLogo {
 	height: 10rem;
 	width: auto;
