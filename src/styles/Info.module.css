@@ -18,29 +18,51 @@
 
 .faqWrapper {
 	margin-top: 10rem;
+	
 }
 
 .faqContainer {
+	text-align: left;
 	display: flex;
+	flex-direction: column;
 	flex-wrap: wrap;
-	align-items: center;
 	justify-content: center;
 	margin-top: 5vh;
 }
-
+.faqContainer > p{
+	text-align: center;
+}
 .faqContainer div {
 	display: flex;
-	flex-direction: column;
-	width: 30vw;
-	margin-left: 5vw;
-	margin-right: 5vw;
-	margin-bottom: 5vh;
-}
 
+}
+.accordianWrapper{
+	display: flex;
+	flex-direction: column;
+}
 .faqContainer div > strong {
 	font-size: 3vh;
 }
 
 .info {
 	width: 80vw;
+}
+.faqAccordian{
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	background-color: var(--container-bg);
+	font-size: 1.5vw;
+	cursor: pointer;
+	user-select: none;
+	text-align: center;
+}
+.accordianWrapper >p{
+	text-align: center;
+}
+.faqAccordian:hover{
+	background-color: var(--container-hover-bg);
+}
+.faqTitle{
 }

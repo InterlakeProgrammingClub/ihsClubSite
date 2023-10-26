@@ -10,7 +10,14 @@ export default function Navbar() {
 				<p>InterlakeClubs</p>
 			</Link>
 			<div className={styles.navbarLinks}>
-				<Link href="/clubs">Clubs</Link>
+				<div className={styles.dropdown}>
+					<button onClick={() => location.href = "/clubs"} className = {styles.navbutton}>Clubs</button>
+					<div className={styles.dropdowncontent}>
+						<a href="#">Link 1</a>
+						<a href="#">Link 2</a>
+						<a href="#">Link 3</a>
+					</div>
+				</div>
 				<Link href="/info">Info</Link>
 				<Link href="/contact">Contact</Link>
 			</div>
