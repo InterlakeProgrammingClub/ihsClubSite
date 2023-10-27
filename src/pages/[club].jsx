@@ -1,5 +1,6 @@
 import { useEffect } from "react";
 import { useRouter } from "next/router";
+import Link from "next/link";
 import Header from "@/components/ui/Header";
 import Navbar from "@/components/ui/Navbar";
 import data from "@/json/clubs.json";
@@ -17,7 +18,9 @@ export default function ClubPage({ club }) {
 	});
 
 	let info = data.find((item) => item.route === `/${club}`);
-	info = info ? info : "";
+	info = info
+		? JSON.parse(JSON.stringify(info).replace(/""/g, '"No Info Provided"'))
+		: "";
 
 	return (
 		<>
@@ -48,11 +51,27 @@ export default function ClubPage({ club }) {
 							</tr>
 							<tr>
 								<td>Contact</td>
-								<td>{info?.contact}</td>
+								<td>
+									{info?.contact === "No Info Provided" ? (
+										info?.contact
+									) : (
+										<Link href={`mailto:${info?.contact}`}>
+											{info?.contact}
+										</Link>
+									)}
+								</td>
 							</tr>
 							<tr>
 								<td>Club Contact</td>
-								<td>{info?.clubcontact}</td>
+								<td>
+									{info?.clubcontact === "No Info Provided" ? (
+										info?.clubcontact
+									) : (
+										<Link href={`mailto:${info?.clubcontact}`}>
+											{info?.clubcontact}
+										</Link>
+									)}
+								</td>
 							</tr>
 							<tr>
 								<td>Room</td>

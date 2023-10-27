@@ -11,7 +11,12 @@ export default function Navbar() {
 			</Link>
 			<div className={styles.navbarLinks}>
 				<div className={styles.dropdown}>
-					<button onClick={() => location.href = "/clubs"} className = {styles.navbutton}>Clubs</button>
+					<button
+						onClick={() => (location.href = "/clubs")}
+						className={styles.navbutton}
+					>
+						Clubs
+					</button>
 					<div className={styles.dropdowncontent}>
 						<a href="#">Link 1</a>
 						<a href="#">Link 2</a>

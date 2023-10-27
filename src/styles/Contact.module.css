@@ -21,8 +21,8 @@
 .contactContainer {
 	display: flex;
 	flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
 
 .contactOption {
@@ -44,8 +44,12 @@
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+.contactOption:active {
+	background-color: var(--container-hover-bg);
+}
+
 .contactOption svg {
 	width: 10rem;
 	height: auto;
-  fill: var(--text);
+	fill: var(--text);
 }

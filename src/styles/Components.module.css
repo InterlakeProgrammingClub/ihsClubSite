@@ -54,7 +54,7 @@
 
 .navbutton:hover {
 	color: black;
-	background-color: var(--container-bg)
+	background-color: var(--container-bg);
 }
 
 .dropdowncontent {
@@ -62,7 +62,7 @@
 	position: absolute;
 	background-color: #f1f1f1;
 	min-width: 160px;
-	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
 	z-index: 1;
 }
 
@@ -79,7 +79,7 @@
 }
 
 .dropdowncontent a:hover {
-	background-color: #757575;
+	background-color: var(--container-hover-bg);
 }
 
 .dropdowncontent a {
@@ -87,8 +87,12 @@
 }
 
 @keyframes heightin {
-	0% {height: 0px}
-	100% {height: 193px}
+	0% {
+		height: 0px;
+	}
+	100% {
+		height: 193px;
+	}
 }
 
 .dropdown:hover .dropdowncontent {
@@ -98,11 +102,16 @@
 }
 
 @keyframes delayfade {
-	0% {opacity: 0}
-	50% {opacity: 0}
-	100% {opacity: 1}
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
 }
-
 
 @media only screen and (max-width: 400px) {
 	.navbar a {

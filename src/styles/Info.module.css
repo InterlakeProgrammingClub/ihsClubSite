@@ -18,7 +18,6 @@
 
 .faqWrapper {
 	margin-top: 10rem;
-	
 }
 
 .faqContainer {
@@ -29,17 +28,20 @@
 	justify-content: center;
 	margin-top: 5vh;
 }
-.faqContainer > p{
+
+.faqContainer > p {
 	text-align: center;
 }
+
 .faqContainer div {
 	display: flex;
-
 }
-.accordianWrapper{
+
+.accordianWrapper {
 	display: flex;
 	flex-direction: column;
 }
+
 .faqContainer div > strong {
 	font-size: 3vh;
 }
@@ -47,7 +49,8 @@
 .info {
 	width: 80vw;
 }
-.faqAccordian{
+
+.faqAccordian {
 	justify-content: center;
 	display: flex;
 	flex-direction: row;
@@ -58,11 +61,10 @@
 	user-select: none;
 	text-align: center;
 }
-.accordianWrapper >p{
+.accordianWrapper > p {
 	text-align: center;
 }
-.faqAccordian:hover{
+
+.faqAccordian:hover {
 	background-color: var(--container-hover-bg);
-}
-.faqTitle{
 }
