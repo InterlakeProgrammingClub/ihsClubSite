@@ -1,8 +1,7 @@
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import Link from "next/link";
-import Header from "@/components/ui/Header";
-import Navbar from "@/components/ui/Navbar";
+import { Header, Navbar } from "@/components";
 import data from "@/json/clubs.json";
 import styles from "@/styles/[club].module.css";
 

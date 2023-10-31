@@ -1,6 +1,4 @@
-import Header from "@/components/ui/Header";
-import Navbar from "@/components/ui/Navbar";
-import Club from "@/components/ui/Club";
+import { Header, Navbar, Club } from "@/components";
 import data from "@/json/clubs.json";
 import styles from "@/styles/Clubs.module.css";
 

@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import Header from "@/components/ui/Header";
-import Navbar from "@/components/ui/Navbar";
+import { Header, Navbar } from "@/components";
 import styles from "@/styles/Index.module.css";
 
 export default function Home() {

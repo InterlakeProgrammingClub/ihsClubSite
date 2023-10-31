@@ -1,6 +1,5 @@
 import Link from "next/link";
-import Header from "@/components/ui/Header";
-import Navbar from "@/components/ui/Navbar";
+import { Header, Navbar } from "@/components";
 import styles from "@/styles/404.module.css";
 
 export default function NotFound() {

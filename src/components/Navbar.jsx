@@ -1,12 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "@/styles/Components.module.css";
+import data from "@/json/clubs.json";
 
 export default function Navbar() {
 	return (
 		<main className={styles.navbar}>
 			<Link href="/" className={styles.navbarMain}>
-				<Image src={"/logo.png"} alt={"Logo"} width={75} height={75} />
+				<Image src={"/logo.png"} alt={"Logo"} width={100} height={100} />
 				<p>InterlakeClubs</p>
 			</Link>
 			<div className={styles.navbarLinks}>
@@ -18,9 +19,11 @@ export default function Navbar() {
 						Clubs
 					</button>
 					<div className={styles.dropdowncontent}>
-						<a href="#">Link 1</a>
-						<a href="#">Link 2</a>
-						<a href="#">Link 3</a>
+						{data.map((item, index) => (
+							<Link href={item.route} key={index}>
+								{item.name}
+							</Link>
+						))}
 					</div>
 				</div>
 				<Link href="/info">Info</Link>
