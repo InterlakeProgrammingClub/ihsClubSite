@@ -6,22 +6,24 @@
 	align-items: center;
 	width: 100%;
 	height: 10dvh;
-	background-color: #000;
+	background-color: var(--navbar-bg);
 	z-index: 10;
 }
 
-.navbar a {
-	color: #dbdbdb;
+.navbar a,
+.navbar a p {
+	color: var(--navbar-text);
 }
 
-.navbar a:hover {
-	color: #fff;
+.navbar a:hover,
+.navbar a p:hover {
+	color: var(--navbar-text-hover);
 }
 
 .navbarMain {
 	display: flex;
 	align-items: center;
-	margin-left: 5rem;
+	margin-left: 5%;
 }
 
 .navbarMain img {
@@ -41,22 +43,100 @@
 	margin: 1rem;
 }
 
+.navbutton {
+	background: none;
+	border: none;
+	font-family: inherit;
+	font-size: inherit;
+	color: white;
+	cursor: pointer;
+}
+
+.navbutton:hover {
+	color: black;
+	background-color: var(--container-bg);
+}
+
+.dropdowncontent {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdowncontent a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+
+.dropdowncontent a:hover {
+	background-color: var(--container-hover-bg);
+}
+
+.dropdowncontent a {
+	animation: delayfade 0.5s;
+}
+
+@keyframes heightin {
+	0% {
+		height: 0px;
+	}
+	100% {
+		height: 193px;
+	}
+}
+
+.dropdown:hover .dropdowncontent {
+	animation: heightin 0.5s;
+	background-color: var(--container-bg);
+	display: block;
+}
+
+@keyframes delayfade {
+	0% {
+		opacity: 0;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	.navbar a {
+		font-size: 10px;
+	}
+}
+
 .club {
 	width: 35rem;
 	height: auto;
-	background-color: #cacaca;
+	background-color: var(--container-bg);
 	margin: 5rem;
 	display: flex;
 	flex-direction: column;
 	transition: transform 0.3s, box-shadow 0.3s;
 	border-radius: 20px;
 }
-.club > *{
-	text-align: center;
-}
+
 .club:hover {
 	transform: scale(1.1);
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.club > * {
+	text-align: center;
 }
 
 .clubImageContainer {
@@ -64,6 +144,11 @@
 	justify-content: center;
 	width: 100%;
 	margin-top: 1rem;
+}
+
+.clubImageContainer img {
+	max-width: 100%;
+	height: auto;
 }
 
 .clubLogo {
@@ -77,8 +162,9 @@
 	margin-top: 1rem;
 	width: 90%;
 	height: 100%;
-	color: #000;
+	color: var(--text);
 }
-.descriptionContainer{
+
+.descriptionContainer {
 	margin-bottom: 1rem;
 }

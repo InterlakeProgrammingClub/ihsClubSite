@@ -1,6 +1,5 @@
 import Link from "next/link";
-import Header from "@/components/ui/Header";
-import Navbar from "@/components/ui/Navbar";
+import { Header, Navbar } from "@/components";
 import styles from "@/styles/404.module.css";
 
 export default function NotFound() {
@@ -9,7 +8,7 @@ export default function NotFound() {
 			<Header title="404 | InterlakeClubs" />
 			<main>
 				<Navbar />
-				<div className={styles.container}>
+				<div className={styles.title}>
 					<h1>404 - Not Found</h1>
 					<p>What are you doing here!? Go join a club!</p>
 

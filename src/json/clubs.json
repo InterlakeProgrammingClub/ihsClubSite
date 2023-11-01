@@ -3,9 +3,13 @@
 		"name": "Programming Club",
 		"description": "We are the best club",
 		"route": "/programming",
+		"contact": "",
+		"clubcontact": "admin@interlakeprogrammingclub.com",
+		"room": "1809",
+		"advisor": "Peterson",
+		"day": "Thursday",
 		"image": "/logos/programming.png"
 	},
-
 	{
 		"name": "Quizbowl Club",
 		"description": "Are you interested in history, literature, science or just want to have fun playing some trivia? Then join Interlake QuizBowl! We have various academic subjects to quiz you on as well as many competitions for you to attend!",
@@ -14,9 +18,9 @@
 		"clubcontact": "interlakequizbowl@gmail.com",
 		"room": "2708",
 		"advisor": "Daniels",
+		"day": "Tuesday",
 		"image": "/logos/quizbowl.png"
 	},
-
 	{
 		"name": "History Club",
 		"description": "We are a club that practices competitive history, using question packets from the National History Bee & Bowl website. We cover all areas of history, be it medieval, modern, or even pandemic time. Every meeting, we play trivia using these packets, similar to Quizbowl or SciOly. No experience required! We offer food if a member spots us $5.",
@@ -25,27 +29,29 @@
 		"clubcontact": "interlakehistoryclub@gmail.com",
 		"room": "1705",
 		"advisor": "Mr. Garcia",
+		"day": "Thursday",
 		"image": "/logos/programming.png"
 	},
 	{
 		"name": "Stocks Club",
 		"description": "Hello! We help kids prepare for investment competitions around the world, give tips on managing portfolios and trading securities, and we run our own real trading portfolio on the side! Please consider joining if you like money!",
 		"route": "/stocks",
-		"contact": "s-lijerr@bsd405.org",	
+		"contact": "s-lijerr@bsd405.org",
 		"clubcontact": "interlakestocksclub@gmail.com",
 		"room": "106",
 		"advisor": "Ruihua Wang",
-		"image": "/logos/programming.png"
+		"day": "Monday",
+		"image": "/logos/stocks.png"
 	},
 	{
 		"name": "DECA",
 		"description": "Interlake Distributive Education Clubs of America (DECA) is a high school and college program for students interested in business. The organization prepares emerging leaders and entrepreneurs for careers in marketing, finance, hospitality, and management.",
 		"route": "/deca",
-		"contact": "s-bondadaa@bsd405.org",	
+		"contact": "s-bondadaa@bsd405.org",
 		"clubcontact": "decainterlake@gmail.com",
 		"room": "1802 and 1803",
 		"advisor": "Weiker and Thoreson",
-		"image": "/logos/programming.png"
+		"day": "Tuesday",
+		"image": "/logos/deca.png"
 	}
-	
 ]

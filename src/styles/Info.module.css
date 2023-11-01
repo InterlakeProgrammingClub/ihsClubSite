@@ -1,0 +1,78 @@
+.container {
+	text-align: center;
+	margin-top: 10rem;
+}
+
+.container h1 {
+	font-size: clamp(34px, 6vw, 64px);
+}
+
+.infoDescription {
+	transition: all 0.2s ease-out;
+	overflow: hidden;
+}
+
+.aboutContainer p {
+	font-size: x-large;
+}
+
+.aboutContainer p {
+	width: 80vw;
+	margin: auto;
+}
+
+.faqWrapper {
+	margin-top: 10rem;
+}
+
+.faqContainer {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-top: 5vh;
+	width: 90%;
+	margin: auto;
+}
+
+.faqContainer > p {
+	text-align: center;
+}
+
+.faqContainer div {
+	display: flex;
+}
+
+.accordianWrapper {
+	display: flex;
+	flex-direction: column;
+}
+
+.faqContainer div > strong {
+	font-size: 3vh;
+}
+
+.info {
+	width: 80vw;
+}
+
+.faqAccordian {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	background-color: var(--container-bg);
+	font-size: 1.5vw;
+	height: 4vh;
+	align-items: center;
+	cursor: pointer;
+	justify-content: space-between;
+	user-select: none;
+}
+
+.faqAccordian:hover {
+	background-color: var(--container-hover-bg);
+}
+
+.faqAccordian p {
+	font-size: clamp(13px, 3vw, 20px);
+}

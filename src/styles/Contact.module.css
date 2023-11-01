@@ -7,10 +7,11 @@
 
 .title {
 	text-align: center;
-	margin-top: 5rem;
+	margin-top: 10rem;
 }
 
-.title h1 {
+.title h1,
+.formContainer h1 {
 	font-size: clamp(34px, 6vw, 64px);
 }
 
@@ -21,19 +22,19 @@
 .contactContainer {
 	display: flex;
 	flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
 
 .contactOption {
 	width: 15rem;
 	height: 15rem;
 	margin: 5rem;
-	background-color: #cacaca;
+	background-color: var(--container-bg);
 	display: flex;
 	flex-direction: column;
 	text-align: center;
-	color: #000;
+	color: var(--text);
 	transition: transform 0.3s, box-shadow 0.3s;
 	justify-content: center;
 	align-items: center;
@@ -44,7 +45,34 @@
 	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
 }
 
+.contactOption:active {
+	background-color: var(--container-hover-bg);
+}
+
 .contactOption svg {
 	width: 10rem;
 	height: auto;
+	fill: var(--text);
+}
+
+.formContainer {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	width: 100%;
+	margin-top: 3rem;
+	align-items: center;
+}
+
+.formContainer iframe {
+	border: none;
+	margin: 0;
+	width: 70%;
+	height: 100vh;
+	margin-top: 1rem;
+	margin-bottom: 0.5rem;
+}
+
+.formContainer a {
+	margin-bottom: 3rem;
 }
