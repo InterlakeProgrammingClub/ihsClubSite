@@ -3,6 +3,8 @@ import { Header, Navbar } from "@/components";
 import styles from "@/styles/Contact.module.css";
 
 export default function Contact() {
+	const url = process.env.NEXT_PUBLIC_FORM_URL;
+
 	return (
 		<>
 			<Header title="Contact | InterlakeClubs" />
@@ -50,6 +52,22 @@ export default function Contact() {
 							<h1>GitHub</h1>
 						</Link>
 					</div>
+
+					{url && (
+						<div className={styles.formContainer}>
+							<h1>Don&apos;t see your club listed?</h1>
+							<iframe
+								src={url}
+								allowFullScreen="true"
+								webkitallowfullscreen="true"
+								mozallowfullscreen="true"
+								msallowfullscreen="true"
+							></iframe>
+							<Link href={url} target="_blank">
+								Open in New Tab
+							</Link>
+						</div>
+					)}
 				</div>
 			</main>
 		</>

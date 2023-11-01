@@ -112,6 +112,17 @@ export default function Info() {
 								</div>
 								<p>Hey, that&apos;s not nice</p>
 							</div>
+							<div className={styles.accordianWrapper}>
+								<div className={styles.faqAccordian} onClick={show}>
+									<p>+</p>
+									<p className={styles.faqTitle}>Why is my club not listed?</p>
+									<p>+</p>
+								</div>
+								<p>
+									If you would like your club to be listed, you can fill out a
+									form on the <Link href="/contact">contact page</Link>.
+								</p>
+							</div>
 						</div>
 					</div>
 				</div>
