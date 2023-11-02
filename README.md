@@ -36,6 +36,23 @@ If you would like to change the club info, head over to ``src/json/clubs.json`` 
 
 > Note that if you would not like to include info, you may leave it as an empty string (``""``)
 
+Example:
+```json
+[
+	{
+		"name": "Programming Club",
+		"description": "We love programming!",
+		"route": "/programming",
+		"contact": "",
+		"clubcontact": "admin@interlakeprogrammingclub.com",
+		"room": "727",
+		"advisor": "Bezos",
+		"day": "Monday",
+		"image": "/logos/programming.png"
+	}
+]
+```
+
 ### Contact Form
 By default, the form in ``/contact`` is not shown. If you would like it to show/change the link, you can follow these steps.
 1. Copy ``.env.example`` into ``.env``
