@@ -7,17 +7,18 @@ export default function Navbar() {
 	return (
 		<main className={styles.navbar}>
 			<Link href="/" className={styles.navbarMain}>
-				<Image src={"/logo.png"} alt={"Logo"} width={100} height={100} />
+				<Image
+					src={"/logo.png"}
+					alt={"Logo"}
+					width={100}
+					height={100}
+					priority={true}
+				/>
 				<p>InterlakeClubs</p>
 			</Link>
 			<div className={styles.navbarLinks}>
 				<div className={styles.dropdown}>
-					<button
-						onClick={() => (location.href = "/clubs")}
-						className={styles.navbutton}
-					>
-						Clubs
-					</button>
+					<Link href="/clubs">Clubs</Link>
 					<div className={styles.dropdowncontent}>
 						{data.map((item, index) => (
 							<Link href={item.route} key={index}>
