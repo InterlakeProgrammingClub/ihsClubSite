@@ -20,11 +20,24 @@ export default function Navbar() {
 				<div className={styles.dropdown}>
 					<Link href="/clubs">Clubs</Link>
 					<div className={styles.dropdowncontent}>
-						{data.map((item, index) => (
-							<Link href={item.route} key={index}>
-								{item.name}
-							</Link>
-						))}
+						{data
+							.reduce((chunks, item, index) => {
+								const chunkIndex = Math.floor(index / 5);
+
+								if (!chunks[chunkIndex]) chunks[chunkIndex] = [];
+								chunks[chunkIndex].push(item);
+
+								return chunks;
+							}, [])
+							.map((chunk, chunkIndex) => (
+								<div key={chunkIndex} className={styles.dropdownContainer}>
+									{chunk.map((item, index) => (
+										<Link href={item.route} key={index}>
+											{item.name}
+										</Link>
+									))}
+								</div>
+							))}
 					</div>
 				</div>
 				<Link href="/info">Info</Link>

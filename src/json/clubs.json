@@ -30,7 +30,7 @@
 		"room": "1705",
 		"advisor": "Mr. Garcia",
 		"day": "Thursday",
-		"image": "/logos/programming.png"
+		"image": ""
 	},
 	{
 		"name": "Stocks Club",
@@ -53,5 +53,16 @@
 		"advisor": "Weiker and Thoreson",
 		"day": "Tuesday",
 		"image": "/logos/deca.png"
+	},
+	{
+		"name": "Research & Science Fair Club",
+		"description": "We guide students through the start-to-finish process of doing college-level research and presenting it at science fairs, all the way to ISEF! We provide one-on-one mentoring by experts (former ISEF qualifiers) to help you reach your goals. You do not have to compete in fairs to join, anyone is welcome! There will be food every meeting!!!",
+		"route": "/rsf",
+		"contact": "s-aggarwald@bsd405.org",
+		"clubcontact": "interlakersf@gmail.com",
+		"room": "Portable 1",
+		"advisor": "Kessler",
+		"day": "Tuesday",
+		"image": "/logos/rsf.png"
 	}
 ]

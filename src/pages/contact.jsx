@@ -58,7 +58,7 @@ export default function Contact() {
 							<h1>Don&apos;t see your club listed?</h1>
 							<iframe
 								src={url}
-								allowFullScreen="true"
+								allowFullScreen={true}
 								webkitallowfullscreen="true"
 								mozallowfullscreen="true"
 								msallowfullscreen="true"

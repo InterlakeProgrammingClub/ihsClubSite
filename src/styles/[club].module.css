@@ -15,12 +15,11 @@
 	background-color: var(--table-bg);
 	padding: 20px;
 	border-radius: 10px;
-	width: 50rem;
-	margin: 0 auto;
 }
 
 .infoTable table {
 	margin: 0 auto;
+	width: 50vw;
 }
 
 .infoTable table th,
