@@ -32,7 +32,7 @@ If you would like to change the club info, head over to ``src/json/clubs.json`` 
 | room         | yes          | string                           |
 | advisor      | yes          | string                           |
 | day          | yes          | string                           |
-| image        | no           | path to image                    |
+| image        | yes          | path to image                    |
 
 > Note that if you would not like to include info, you may leave it as an empty string (``""``)
 

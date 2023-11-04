@@ -127,6 +127,11 @@
 	height: auto;
 }
 
+.clubImageContainer svg {
+	width: 5rem;
+	height: auto;
+}
+
 .clubLogo {
 	height: 10rem;
 	width: auto;
