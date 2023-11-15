@@ -37,7 +37,11 @@ export default function Club(item) {
 			<div className={styles.clubTextInfo}>
 				<h1>{item.name}</h1>
 				<div className={styles.descriptionContainer}>
-					<p>{item.description}</p>
+					{item.description === "" ? (
+						<i>No Description Provided</i>
+					) : (
+						<p>{item.description}</p>
+					)}
 				</div>
 			</div>
 		</Link>

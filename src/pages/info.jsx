@@ -4,6 +4,10 @@ import { Header, Navbar } from "@/components";
 import styles from "@/styles/Info.module.css";
 
 export default function Info() {
+	const startEndTime = process.env.NEXT_PUBLIC_START_END_TIME;
+	const wednesdayStartEndTime =
+		process.env.NEXT_PUBLIC_WEDNESDAY_START_END_TIME;
+
 	const show = (event) => {
 		const style = document.getElementById("text" + event.target.id).style;
 		document.getElementById("text" + event.target.id).className =
@@ -121,6 +125,24 @@ export default function Info() {
 								<p>
 									If you would like your club to be listed, you can fill out a
 									form on the <Link href="/contact">contact page</Link>.
+								</p>
+							</div>
+							<div className={styles.accordianWrapper}>
+								<div className={styles.faqAccordian} onClick={show}>
+									<p>+</p>
+									<p className={styles.faqTitle}>
+										What time does club x start?
+									</p>
+									<p>+</p>
+								</div>
+								<p>
+									The usual time for normal days is from{" "}
+									{startEndTime ? startEndTime : "3:30 - 4:10"}, and on
+									Wednesdays it is from{" "}
+									{wednesdayStartEndTime ? wednesdayStartEndTime : "1:00-2:00"}.
+									However, this is not the case for all clubs. If you would like
+									to get the exact start and end times, please contact the club
+									via email.
 								</p>
 							</div>
 						</div>
