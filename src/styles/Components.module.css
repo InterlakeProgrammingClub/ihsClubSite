@@ -66,6 +66,8 @@
 	text-decoration: none;
 	display: block;
 	animation: delayfade 0.5s;
+  font-size: xx-small;
+  margin: 0;
 }
 
 .dropdowncontent a:hover {

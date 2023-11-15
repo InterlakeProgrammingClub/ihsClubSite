@@ -58,6 +58,14 @@ By default, the form in ``/contact`` is not shown. If you would like it to show/
 1. Copy ``.env.example`` into ``.env``
 2. Set the link of your form
 
+### Club Times
+If you want to change when the clubs start and end, you can change the following string environment variables:
+* ``NEXT_PUBLIC_WEDNESDAY_START_END_TIME``
+* ``NEXT_PUBLIC_START_END_TIME``
+
+### Others
+If you would like to change anything else, you can directly edit the code and use it, as long as it follows our [license](https://github.com/InterlakeProgrammingClub/ihsClubSite/blob/main/LICENSE)
+
 ## Final Steps
 Finally, you can go ahead and start the webserver.  
 
